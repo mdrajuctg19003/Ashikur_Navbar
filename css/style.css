@@ -1,0 +1,43 @@
+/* = Common Css Starts = */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input,
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* = Common  Css Ends= */
+
+/* Nav Css Starts */
+#primary_nav #primary_menu a{
+  font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 15px;
+color: #353535;
+padding: 18px 22px;
+display: inline-block;
+}
+
+#primary_nav #primary_menu a:hover{
+    text-decoration: underline;
+}
+    /* Nav Css ends */
